@@ -1,13 +1,74 @@
-.tarjeta {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
+/* Reset de estilos para asegurar consistencia entre navegadores */
+body, h1, h2, h3, p, select {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #007BFF;
     text-align: center;
-    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #007BFF;
+    text-align: center;
+}
+
+/* Estilo para el selector de deportes */
+#selectorDeportes {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Estilo para el contenedor de tarjetas */
+#tarjetasContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+/* Estilo para las tarjetas de deportes */
+.tarjeta {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+}
+
+.tarjeta h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .imagenDeporte {
     max-width: 100%;
     height: auto;
+    border-radius: 6px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
